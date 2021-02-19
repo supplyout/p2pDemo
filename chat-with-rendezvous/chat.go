@@ -116,7 +116,8 @@ func main() {
 	// client because we want each peer to maintain its own local copy of the
 	// DHT, so that the bootstrapping node of the DHT can go down without
 	// inhibiting future peer discovery.
-	kademliaDHT, err := dht.New(ctx, host)
+	kademliaDHT, err := dht.New(ctx, host, dht.Mode(dht.ModeServer))
+
 	if err != nil {
 		panic(err)
 	}
@@ -137,7 +138,7 @@ func main() {
 		go func() {
 			defer wg.Done()
 			if err := host.Connect(ctx, *peerinfo); err != nil {
-				logger.Warning(err)
+				logger.Warn(err)
 			} else {
 				logger.Info("Connection established with bootstrap node:", *peerinfo)
 			}

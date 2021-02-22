@@ -1,0 +1,1 @@
+fyne package -os android -appID com.example.androidP2PDemo

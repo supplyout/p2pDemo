@@ -1,0 +1,647 @@
+--------- beginning of main
+--------- beginning of system
+02-21 23:32:23.534  1199  1224 E vold    : Failed to chmod /data/system_ce/0: No such file or directory
+02-21 23:32:23.534  1199  1224 E vold    : Failed to chmod /data/misc_ce/0: No such file or directory
+02-21 23:32:23.534  1199  1224 E vold    : Failed to chmod /data/media/0: No such file or directory
+02-21 23:32:24.294  1258  1258 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:32:24.297  1248  1248 E cutils  : Failed to read /data/.layout_version: No such file or directory
+02-21 23:32:24.339  1260  1260 E cutils  : Failed to read /data/.layout_version: No such file or directory
+02-21 23:32:24.341  1258  1258 E CameraHardware: No memory allocator available
+02-21 23:32:24.748  1257  1257 E APM::ConfigParsingUtils: replace dynamic sampleRate(44100) failed
+02-21 23:32:24.790  1257  1292 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:32:24.793  1257  1257 E RadioService: couldn't load radio module radio.primary (No such file or directory)
+02-21 23:32:24.793  1257  1257 E SoundTriggerHwService: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+02-21 23:32:24.971  1247  1247 E SurfaceFlinger: hwcomposer module not found
+02-21 23:32:26.060  1375  1375 E ProbeModule: insmod_by_dep: cannot load module: [ipt_owner]
+02-21 23:32:26.067  1377  1377 E ProbeModule: insmod_by_dep: cannot load module: [ipt_owner]
+02-21 23:32:26.107  1379  1379 E ProbeModule: insmod_by_dep: cannot load module: [ipt_owner]
+02-21 23:32:26.108  1267  1267 E Netd    : /system/bin/iptables-restore failed with res=0, status=256
+02-21 23:32:26.190  1382  1382 E ProbeModule: insmod_by_dep: cannot load module: [ip6t_owner]
+02-21 23:32:26.193  1384  1384 E ProbeModule: insmod_by_dep: cannot load module: [ip6t_owner]
+02-21 23:32:26.275  1386  1386 E ProbeModule: insmod_by_dep: cannot load module: [ip6t_owner]
+02-21 23:32:26.276  1267  1267 E Netd    : /system/bin/ip6tables-restore failed with res=0, status=256
+02-21 23:32:26.462  1396  1396 E ProbeModule: insmod_by_dep: cannot load module: [ipt_owner]
+02-21 23:32:26.463  1398  1398 E ProbeModule: insmod_by_dep: cannot load module: [ipt_owner]
+02-21 23:32:26.464  1400  1400 E ProbeModule: insmod_by_dep: cannot load module: [ipt_owner]
+02-21 23:32:26.464  1267  1267 E Netd    : /system/bin/iptables-restore failed with res=0, status=256
+02-21 23:32:26.469  1403  1403 E ProbeModule: insmod_by_dep: cannot load module: [ip6t_owner]
+02-21 23:32:26.470  1405  1405 E ProbeModule: insmod_by_dep: cannot load module: [ip6t_owner]
+02-21 23:32:26.504  1408  1408 E ProbeModule: insmod_by_dep: cannot load module: [ip6t_owner]
+02-21 23:32:26.504  1267  1267 E Netd    : /system/bin/ip6tables-restore failed with res=0, status=256
+02-21 23:32:27.328  1424  1424 E ProbeModule: insmod_by_dep: cannot load module: [netdev-dummy0]
+02-21 23:32:27.374  1426  1426 E ProbeModule: insmod_by_dep: cannot load module: [dummy0]
+02-21 23:32:27.375  1267  1267 E Netd    : cannot find interface dummy0
+02-21 23:32:27.378  1258  1258 E CameraHardware: No memory allocator available
+02-21 23:32:27.378  1430  1430 E ProbeModule: insmod_by_dep: cannot load module: [net-pf-16-proto-5]
+02-21 23:32:27.379  1267  1267 E Netd    : Unable to create netlink socket: Protocol not supported
+02-21 23:32:28.869  1255  1255 E memtrack: Couldn't load memtrack module (No such file or directory)
+02-21 23:32:28.869  1255  1255 E android.os.Debug: failed to load memtrack module: -2
+02-21 23:32:28.873  1256  1256 E memtrack: Couldn't load memtrack module (No such file or directory)
+02-21 23:32:28.873  1256  1256 E android.os.Debug: failed to load memtrack module: -2
+02-21 23:32:29.106  1256  1256 E Typeface: Error mapping font file /system/fonts/DroidSansFallback.ttf
+02-21 23:32:29.118  1255  1255 E Typeface: Error mapping font file /system/fonts/DroidSansFallback.ttf
+02-21 23:32:30.220  1260  1260 E         : eof
+02-21 23:32:30.220  1260  1260 E         : failed to read size
+02-21 23:32:30.388  1448  1448 E PowerManagerService-JNI: Couldn't load power module (No such file or directory)
+02-21 23:32:30.396  1448  1448 E lights  : Unable to detect max_brightness. Try to set backlight.max_brightness_file
+02-21 23:32:30.524  1478  1478 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:32:30.714  1483  1483 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:32:30.768  1488  1488 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:32:31.007  1448  1448 E art     : DexFile_getDexOptNeeded file '/system/framework/org.apache.http.legacy.jar' does not exist
+02-21 23:32:31.024  1493  1493 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:32:31.226  1498  1498 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:32:31.281  1503  1503 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:32:31.613  1448  1448 E art     : DexFile_getDexOptNeeded file '/system/framework/org.apache.http.legacy.jar' does not exist
+02-21 23:32:35.351  1448  1448 E PackageManager: There should probably be exactly one setup wizard; found 0: matches=[]
+02-21 23:32:35.634  1448  1448 E PackageManager: There should probably be a verifier, but, none were found
+02-21 23:32:35.928  1448  1448 E         : Vibrator file does not exist : -1
+02-21 23:32:35.928  1448  1448 E         : Vibrator device does not exist. Cannot start vibrator
+02-21 23:32:35.931  1448  1448 E ConsumerIrService: Can't open consumer IR HW Module, error: -2
+02-21 23:32:36.054  1448  1524 E EventHub: could not get driver version for /dev/input/mouse0, Not a typewriter
+02-21 23:32:36.095  1448  1461 E AppIdleHistory: Unable to read app idle file for user 0
+02-21 23:32:36.114  1448  1524 E EventHub: could not get driver version for /dev/input/mice, Not a typewriter
+02-21 23:32:36.177  1448  1524 E EventHub: could not get driver version for /dev/input/mouse0, Not a typewriter
+02-21 23:32:36.218  1528  1528 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:32:36.762  1448  1467 E VoldConnector: Error handling '662 /cache -1 -1': java.lang.NullPointerException: Attempt to invoke virtual method 'void android.os.DropBoxManager.addText(java.lang.String, java.lang.String)' on a null object reference
+02-21 23:32:36.889  1448  1448 E WifiLogger: no ring buffers found
+02-21 23:32:36.889  1448  1448 E WifiLogger: Failed to start packet fate monitoring
+02-21 23:32:36.895  1448  1539 E WifiApConfigStore: Error reading hotspot configuration java.io.FileNotFoundException: /data/misc/wifi/softap.conf (No such file or directory)
+02-21 23:32:36.903  1448  1448 E IpConfigStore: Error parsing configuration: java.io.FileNotFoundException: /data/misc/ethernet/ipconfig.txt (No such file or directory)
+02-21 23:32:36.908  1448  1448 E ConnectivityService: Ignoring protectedNetwork 14
+02-21 23:32:36.908  1448  1448 E ConnectivityService: Ignoring protectedNetwork 15
+02-21 23:32:36.958  1448  1448 E BitmapFactory: Unable to decode stream: java.io.FileNotFoundException: /data/system/users/0/wallpaper_orig (No such file or directory)
+02-21 23:32:36.958  1448  1448 E WallpaperManagerService: Invalid wallpaper data
+02-21 23:32:36.958  1448  1448 E WallpaperManagerService: Unable to apply new wallpaper
+02-21 23:32:37.071  1448  1448 E AlsaCardRecord: Failed to parse line 0 of /proc/asound/cards: ---
+02-21 23:32:37.073  1448  1448 E HardwarePropertiesManagerService-JNI: Couldn't load thermal module (No such file or directory)
+02-21 23:32:37.089  1448  1448 E ContextHubService: ** Could not load context_hub module : err No such file or directory
+02-21 23:32:37.147  2052  2052 E appstore: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.equals(java.lang.Object)' on a null object reference
+02-21 23:32:37.163  1448  1448 E SQLiteLog: (1) no such table: locksettings
+02-21 23:32:37.197  1448  1448 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.password.key: open failed: ENOENT (No such file or directory)
+02-21 23:32:37.198  1448  1448 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/password.key: open failed: ENOENT (No such file or directory)
+02-21 23:32:37.198  1448  1448 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.pattern.key: open failed: ENOENT (No such file or directory)
+02-21 23:32:37.198  1448  1448 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gatekeeper.gesture.key: open failed: ENOENT (No such file or directory)
+02-21 23:32:37.199  1448  1448 E LockSettingsStorage: Cannot read file java.io.FileNotFoundException: /data/system/gesture.key: open failed: ENOENT (No such file or directory)
+02-21 23:32:37.260  1448  1563 E NetworkManagement: do clearInterfaceAddresses! iface=eth0
+02-21 23:32:37.427  2052  2052 E RecyclerView: No adapter attached; skipping layout
+02-21 23:32:37.455  1448  1448 E InputMethodManagerService: Ignoring updateSystemUiLocked due to an invalid token. uid:1000 token:null
+02-21 23:32:37.456  1199  1224 E vold    : Failed to chmod /data/system_ce/0: No such file or directory
+02-21 23:32:37.456  1199  1224 E vold    : Failed to chmod /data/misc_ce/0: No such file or directory
+02-21 23:32:37.456  1199  1224 E vold    : Failed to chmod /data/media/0: No such file or directory
+02-21 23:32:37.482  2052  2110 E EGL_adreno: tid 2110: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:32:37.483  1448  1550 E BluetoothA2dp: Could not bind to Bluetooth A2DP Service with Intent { act=android.bluetooth.IBluetoothA2dp }
+02-21 23:32:37.492  1448  1586 E WVMExtractor: Failed to open libwvm.so: dlopen failed: library "libwvm.so" not found
+02-21 23:32:37.624  1262  1262 E OMXNodeInstance: getParameter(4ee0001:ffmpeg.aac.decoder, ??(0x6f400005)) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.653  1262  1262 E OMXNodeInstance: getExtensionIndex(4ee000c:ffmpeg.divx.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.655  1262  1262 E OMXNodeInstance: getExtensionIndex(4ee000d:ffmpeg.flv1.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.659  1262  1262 E OMXNodeInstance: getExtensionIndex(4ee000e:ffmpeg.mpeg2.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.669  1262  1282 E OMXNodeInstance: getExtensionIndex(4ee000f:ffmpeg.mpeg4.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.673  1262  1282 E OMXNodeInstance: getExtensionIndex(4ee0010:ffmpeg.h263.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.679  1262  1282 E OMXNodeInstance: getExtensionIndex(4ee0011:ffmpeg.hevc.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.684  1262  1282 E OMXNodeInstance: getExtensionIndex(4ee0012:ffmpeg.vp8.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.688  1262  1282 E OMXNodeInstance: getExtensionIndex(4ee0013:ffmpeg.rv.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.700  1262  1282 E OMXNodeInstance: getExtensionIndex(4ee0014:ffmpeg.vc1.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.715  1262  1282 E OMXNodeInstance: getExtensionIndex(4ee0015:ffmpeg.vtrial.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.723  1262  1282 E OMXNodeInstance: getExtensionIndex(4ee0016:ffmpeg.wmv.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.731  1448  1539 E WifiMonitor: killSupplicant p2pfalse init.svc.wpa_supplicant=unknown init.svc.p2p_supplicant=unknown
+02-21 23:32:37.769  1448  1539 E wifi    : Can not initialize the vendor function pointer table
+02-21 23:32:37.769  1448  1539 E WifiNative-HAL: Could not start hal
+02-21 23:32:37.769  1448  1539 E WifiStateMachine: Failed to start HAL
+02-21 23:32:37.807  1262  1282 E OMXNodeInstance: getExtensionIndex(4ee0024:google.mpeg4.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.817  1262  1596 E OMXNodeInstance: getExtensionIndex(4ee0025:google.h263.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.827  1262  1262 E OMXNodeInstance: getExtensionIndex(4ee0026:google.h264.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.844  1262  1282 E OMXNodeInstance: getExtensionIndex(4ee0027:qcom.decoder.avc, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.858  1262  1282 E OMXNodeInstance: getExtensionIndex(4ee0028:google.hevc.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.867  1262  1282 E OMXNodeInstance: getExtensionIndex(4ee0029:google.vp8.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.871  1262  1262 E OMXNodeInstance: getExtensionIndex(4ee002a:google.vp9.decoder, OMX.google.android.index.configureVideoTunnelMode) ERROR: UnsupportedIndex(0x8000101a)
+02-21 23:32:37.876  1262  1596 E OMXNodeInstance: getConfig(4ee002b:google.h263.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+02-21 23:32:37.902  1262  1262 E OMXNodeInstance: getConfig(4ee002d:google.mpeg4.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+02-21 23:32:37.907  1262  1282 E OMXNodeInstance: getConfig(4ee002e:google.vp8.encoder, ConfigAndroidIntraRefresh(0x6f60000a)) ERROR: Undefined(0x80001001)
+02-21 23:32:37.982  1448  1539 E IpConfigStore: Error parsing configuration: java.io.FileNotFoundException: /data/misc/wifi/ipconfig.txt (No such file or directory)
+02-21 23:32:37.985  1448  1539 E WifiLogger: no ring buffers found
+02-21 23:32:37.985  1448  1539 E WifiLogger: Failed to start packet fate monitoring
+02-21 23:32:38.123  1448  1465 E BatteryStatsService: no controller energy info supplied
+02-21 23:32:38.124  1448  1465 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state (No such file or directory)
+02-21 23:32:38.126  1448  1465 E BatteryStatsService: no controller energy info supplied
+02-21 23:32:38.127  1448  1465 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state (No such file or directory)
+02-21 23:32:38.192  1247  1247 E EGL_adreno: tid 1247: eglCreateSyncKHR(2070): error 0x3004 (EGL_BAD_ATTRIBUTE)
+02-21 23:32:38.301  1448  1461 E GnssLocationProvider: no AGPS interface in set_agps_server
+02-21 23:32:38.314  1448  1448 E LocationManagerService: no geocoder provider found
+02-21 23:32:38.314  1448  1448 E FlpHardwareProvider: Error hw_get_module 'flp': -2
+02-21 23:32:38.315  1448  1448 E ActivityRecognitionHardware: Error hw_get_module: -2
+02-21 23:32:38.315  1448  1448 E ActivityRecognitionProxy: ServiceWatcher could not start.
+02-21 23:32:38.316  1448  1461 E GnssLocationProvider: no AGPS interface in set_agps_server
+02-21 23:32:38.429  2052  2110 E EGL_adreno: tid 2110: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:32:38.588  1702  1799 E WVMExtractor: Failed to open libwvm.so: dlopen failed: library "libwvm.so" not found
+02-21 23:32:38.673  1448  1809 E ActivityThread: Failed to find provider info for call_log
+02-21 23:32:38.720  1913  1913 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
+02-21 23:32:38.725  1448  1448 E WiredAccessoryManager: No state change.
+02-21 23:32:38.851  1448  1549 E ActivityThread: Failed to find provider info for com.android.calendar
+02-21 23:32:38.852  1448  1549 E ActivityThread: Failed to find provider info for com.android.calendar
+02-21 23:32:39.162  1813  1846 E EGL_adreno: tid 1846: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:32:39.274  1913  2150 E EGL_adreno: tid 2150: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:32:39.488  1702  1702 E BluetoothInputDevice: Could not bind to Bluetooth HID Service with Intent { act=android.bluetooth.IBluetoothInputDevice }
+02-21 23:32:39.489  1702  1702 E BluetoothPan: Could not bind to Bluetooth Pan Service with Intent { act=android.bluetooth.IBluetoothPan }
+02-21 23:32:39.490  1702  1702 E BluetoothMap: Could not bind to Bluetooth MAP Service with Intent { act=android.bluetooth.IBluetoothMap }
+02-21 23:32:39.492  1702  1702 E BluetoothPbap: Could not bind to Bluetooth Pbap Service with Intent { act=android.bluetooth.IBluetoothPbap }
+02-21 23:32:39.529  1258  1258 E CameraService: getCameraPriorityFromProcState: Received invalid process state -1 from ActivityManagerService!
+02-21 23:32:39.549  1265  1856 E WVMExtractor: Failed to open libwvm.so: dlopen failed: library "libwvm.so" not found
+02-21 23:32:39.594  1258  1854 E CameraService: getCameraPriorityFromProcState: Received invalid process state -1 from ActivityManagerService!
+02-21 23:32:39.704  1702  1870 E ActivityThread: Failed to find provider info for com.android.contacts
+02-21 23:32:39.789  1448  2185 E BootReceiver: Error reading /data/system/last-header.txt
+02-21 23:32:39.789  1448  2185 E BootReceiver: java.io.FileNotFoundException: /data/system/last-header.txt (No such file or directory)
+02-21 23:32:39.789  1448  2185 E BootReceiver: 	at java.io.FileInputStream.open(Native Method)
+02-21 23:32:39.789  1448  2185 E BootReceiver: 	at java.io.FileInputStream.<init>(FileInputStream.java:146)
+02-21 23:32:39.789  1448  2185 E BootReceiver: 	at android.os.FileUtils.readTextFile(FileUtils.java:263)
+02-21 23:32:39.789  1448  2185 E BootReceiver: 	at com.android.server.BootReceiver.getPreviousBootHeaders(BootReceiver.java:121)
+02-21 23:32:39.789  1448  2185 E BootReceiver: 	at com.android.server.BootReceiver.getBootHeadersToLogAndUpdate(BootReceiver.java:143)
+02-21 23:32:39.789  1448  2185 E BootReceiver: 	at com.android.server.BootReceiver.logBootEvents(BootReceiver.java:163)
+02-21 23:32:39.789  1448  2185 E BootReceiver: 	at com.android.server.BootReceiver.-wrap2(BootReceiver.java)
+02-21 23:32:39.789  1448  2185 E BootReceiver: 	at com.android.server.BootReceiver$1.run(BootReceiver.java:93)
+02-21 23:32:39.800  1765  1765 E CarrierConfigLoader: java.io.FileNotFoundException: /data/user_de/0/com.android.phone/files/carrierconfig-com.android.carrierconfig-89860004018203242361.xml (No such file or directory)
+02-21 23:32:39.819  1260  1260 E         : Unable to unlink boot marker at /data//dalvik-cache/x86_64/.booting, error=No such file or directory
+02-21 23:32:39.819  1260  1260 E         : Unable to unlink boot marker at /data//dalvik-cache/x86/.booting, error=No such file or directory
+02-21 23:32:39.819  1260  1260 E         : Unable to unlink boot marker at /data//dalvik-cache/arm64/.booting, error=No such file or directory
+02-21 23:32:39.820  1260  1260 E         : Unable to unlink boot marker at /data//dalvik-cache/arm/.booting, error=No such file or directory
+02-21 23:32:39.847  1765  1765 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+02-21 23:32:39.901  1887  1887 E bootstat: Failed to read /data/misc/bootstat/last_boot_time_utc: No such file or directory
+02-21 23:32:39.901  1887  1887 E bootstat: Failed to parse boot time record: /data/misc/bootstat/last_boot_time_utc
+02-21 23:32:39.902  1887  1887 E bootstat: Failed to read /data/misc/bootstat/build_date: No such file or directory
+02-21 23:32:39.902  1887  1887 E bootstat: Failed to parse boot time record: /data/misc/bootstat/build_date
+02-21 23:32:39.902  1887  1887 E bootstat: Failed to read /data/misc/bootstat/post_decrypt_time_elapsed: No such file or directory
+02-21 23:32:39.902  1887  1887 E bootstat: Failed to parse boot time record: /data/misc/bootstat/post_decrypt_time_elapsed
+02-21 23:32:39.951  1889  1889 E bootstat: Failed to read /data/misc/bootstat/factory_reset: No such file or directory
+02-21 23:32:39.951  1889  1889 E bootstat: Failed to parse boot time record: /data/misc/bootstat/factory_reset
+02-21 23:32:39.985  1913  1980 E Launcher.Model: Missing Application on load: ApplicationInfo(title=雷电游戏中心 id=-1 type=0 container=-1 screen=-1 cellX=-1 cellY=-1 spanX=1 spanY=1 dropPos=null user=UserHandle{0})
+02-21 23:32:40.074  1765  1765 E VvmBootCompletedRcvr: phone account ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, [e0184adedf913b076626646d3f52c3b49c39ad6d], UserHandle{0} has invalid subId -1
+02-21 23:32:40.232  1908  2221 E SQLiteLog: (1) no such table: files
+02-21 23:32:40.282  1448  1539 E WifiStateMachine: Did not find remoteAddress {172.16.1.2} in /proc/net/arp
+02-21 23:32:40.470  1448  1461 E GnssLocationProvider: no AGPS interface in set_agps_server
+02-21 23:32:40.474  1908  1908 E SQLiteLog: (1) no such table: album_info
+02-21 23:32:40.575  1265  1284 E MetadataRetrieverClient: failed to extract an album art
+02-21 23:32:40.598  1265  1265 E MetadataRetrieverClient: failed to extract an album art
+02-21 23:32:40.645  1265  1265 E MetadataRetrieverClient: failed to extract an album art
+02-21 23:32:40.720  1702  1848 E EGL_adreno: tid 1848: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:32:40.743  1448  1461 E GnssLocationProvider: no AGPS interface in set_agps_server
+02-21 23:32:40.780  1265  1265 E MetadataRetrieverClient: failed to extract an album art
+02-21 23:32:41.009  1913  1980 E DefaultLayoutParser: Default layout parser initialized
+02-21 23:32:41.013  1765  1765 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+02-21 23:32:41.210  1765  1765 E PhoneInterfaceManager: [PhoneIntfMgr] getIccId: No UICC
+02-21 23:32:44.082  1765  1765 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+02-21 23:32:44.084  1765  1765 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+02-21 23:33:55.389  2230  2230 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:55.519  2235  2235 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:55.664  2240  2240 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:55.746  2245  2245 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:55.949  2250  2250 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:56.066  2255  2255 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:56.174  2260  2260 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:56.303  2265  2265 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:56.481  2270  2270 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:56.594  2275  2275 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:56.709  2280  2280 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:56.815  2285  2285 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:56.917  2290  2290 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:57.140  2295  2295 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:57.251  2300  2300 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:57.416  2305  2305 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:57.531  2310  2310 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:57.651  2315  2315 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:57.793  2320  2320 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:58.059  2325  2325 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:58.525  2330  2330 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:58.715  2335  2335 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:58.840  2340  2340 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:59.136  2345  2345 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:59.664  2350  2350 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:33:59.888  2355  2355 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:34:00.011  2360  2360 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:34:00.211  2365  2365 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:34:00.555  2370  2370 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:34:00.760  2375  2375 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:34:00.868  2380  2380 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:34:00.971  2385  2385 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:34:01.328  2390  2390 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:34:01.481  2395  2395 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:34:01.581  2400  2400 E cutils-trace: Error opening trace file: Permission denied (13)
+02-21 23:35:07.219  1247  1247 E EGL_adreno: tid 1247: eglCreateSyncKHR(2070): error 0x3004 (EGL_BAD_ATTRIBUTE)
+02-21 23:36:48.359  2416  2416 E memtrack: Couldn't load memtrack module (No such file or directory)
+02-21 23:36:48.359  2416  2416 E android.os.Debug: failed to load memtrack module: -2
+02-21 23:36:50.513  1765  1765 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+02-21 23:36:50.750  2460  2460 E su      : sqlite3 open /data/user_de/0/com.android.settings/databases/su.sqlite failure: 14
+02-21 23:36:51.259  2462  2462 E memtrack: Couldn't load memtrack module (No such file or directory)
+02-21 23:36:51.259  2462  2462 E android.os.Debug: failed to load memtrack module: -2
+02-21 23:36:52.139  2472  2490 E EGL_adreno: tid 2490: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:36:53.012  2491  2491 E memtrack: Couldn't load memtrack module (No such file or directory)
+02-21 23:36:53.012  2491  2491 E android.os.Debug: failed to load memtrack module: -2
+02-21 23:36:53.049  2517  2517 E memtrack: Couldn't load memtrack module (No such file or directory)
+02-21 23:36:53.049  2517  2517 E android.os.Debug: failed to load memtrack module: -2
+02-21 23:37:04.064  2544     0 E Go      : panic: runtime error: invalid memory address or nil pointer dereference
+02-21 23:37:04.064  2544     0 E Go      : [signal SIGSEGV: segmentation violation code=0x1 addr=0x70 pc=0x7fffd9511852]
+02-21 23:37:04.064  2544     0 E Go      : 
+02-21 23:37:04.064  2544     0 E Go      : goroutine 53 [running]:
+02-21 23:37:04.064  2544     0 E Go      : main.NewP2PServer(0x7fffd9996180, 0xc0000a0000, 0xc000454090, 0xc0004541b0, 0x0, 0x0, 0x0, 0x0, 0xc000428000, 0xc000428000, ...)
+02-21 23:37:04.064  2544     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/myhost.go:68 +0x492
+02-21 23:37:04.064  2544     0 E Go      : main.main.func1()
+02-21 23:37:04.064  2544     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/main.go:53 +0xa5
+02-21 23:37:04.064  2544     0 E Go      : fyne.io/fyne/v2/widget.(*Button).Tapped(0xc000428000, 0xc0013d8d70)
+02-21 23:37:04.064  2544     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/widget/button.go:175 +0x74
+02-21 23:37:04.064  2544     0 E Go      : created by fyne.io/fyne/v2/internal/driver/gomobile.(*mobileDriver).tapUpCanvas.func1
+02-21 23:37:04.064  2544     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/internal/driver/gomobile/driver.go:269 +0x4f
+--------- beginning of crash
+02-21 23:37:04.064  2544  2573 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 2573 (.androidP2PDemo)
+02-21 23:37:04.130  2574  2574 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+02-21 23:37:04.130  2574  2574 F DEBUG   : Build fingerprint: 'google/android_x86_64/x86_64:7.1.2/N2G47O/3636322:/release-keys'
+02-21 23:37:04.130  2574  2574 F DEBUG   : Revision: '0'
+02-21 23:37:04.130  2574  2574 F DEBUG   : ABI: 'x86_64'
+02-21 23:37:04.130  2574  2574 F DEBUG   : pid: 2544, tid: 2573, name: .androidP2PDemo  >>> com.example.androidP2PDemo <<<
+02-21 23:37:04.130  2574  2574 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+02-21 23:37:04.130  2574  2574 F DEBUG   :     rax 0000000000000000  rbx 0000000000000000  rcx ffffffffffffffff  rdx 0000000000000006
+02-21 23:37:04.130  2574  2574 F DEBUG   :     rsi 0000000000000a0d  rdi 00000000000009f0
+02-21 23:37:04.130  2574  2574 F DEBUG   :     r8  00007fffd9519b7c  r9  0000000000000056  r10 0000000000000008  r11 0000000000000246
+02-21 23:37:04.130  2574  2574 F DEBUG   :     r12 00000000000009f0  r13 00007fffd9f184a0  r14 0000000000000000  r15 00007fffd8e8b0e0
+02-21 23:37:04.130  2574  2574 F DEBUG   :     cs  0000000000000033  ss  000000000000002b
+02-21 23:37:04.130  2574  2574 F DEBUG   :     rip 00007fffd8e8c921  rbp 000000c001cedc18  rsp 000000c001cedc00  eflags 0000000000000246
+02-21 23:37:04.131  2574  2574 F DEBUG   : 
+02-21 23:37:04.131  2574  2574 F DEBUG   : backtrace:
+02-21 23:37:04.131  2574  2574 F DEBUG   :     #00 pc 0000000000626921  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.raise+33)
+02-21 23:37:04.131  2574  2574 F DEBUG   :     #01 pc 00000000005ef4ac  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.fatalpanic+172)
+02-21 23:37:04.131  2574  2574 F DEBUG   :     #02 pc 00000000005eede4  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.gopanic+1348)
+02-21 23:37:04.131  2574  2574 F DEBUG   :     #03 pc 0000000000604d12  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.sigpanic+1042)
+02-21 23:37:04.131  2574  2574 F DEBUG   :     #04 pc 0000000000cab851  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (main.NewP2PServer+1169)
+02-21 23:37:04.131  2574  2574 F DEBUG   :     #05 pc 0000000000cac4e4  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (main.main.func1+164)
+02-21 23:37:04.131  2574  2574 F DEBUG   :     #06 pc 00000000009a4813  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (fyne.io/fyne/v2/widget.(*Button).Tapped+115)
+02-21 23:37:04.131  2574  2574 F DEBUG   :     #07 pc 00000000006250e0  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.goexit)
+02-21 23:37:04.939  1448  1523 E InputDispatcher: channel '97d9649 com.example.androidP2PDemo/org.golang.app.GoNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+02-21 23:37:05.148  1913  2150 E EGL_adreno: tid 2150: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:37:05.281  1448  2583 E EGL_adreno: tid 2583: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:37:15.651  2587     0 E Go      : panic: runtime error: invalid memory address or nil pointer dereference
+02-21 23:37:15.651  2587     0 E Go      : [signal SIGSEGV: segmentation violation code=0x1 addr=0x70 pc=0x7fffd9511852]
+02-21 23:37:15.651  2587     0 E Go      : 
+02-21 23:37:15.651  2587     0 E Go      : goroutine 43 [running]:
+02-21 23:37:15.651  2587     0 E Go      : main.NewP2PServer(0x7fffd9996180, 0xc00003e008, 0xc000334090, 0xc0003341b0, 0x1, 0x0, 0x0, 0x0, 0x7fffd9147490, 0xc0003f8000, ...)
+02-21 23:37:15.651  2587     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/myhost.go:68 +0x492
+02-21 23:37:15.651  2587     0 E Go      : main.main.func3()
+02-21 23:37:15.651  2587     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/main.go:83 +0xb5
+02-21 23:37:15.651  2587     0 E Go      : fyne.io/fyne/v2/widget.(*Button).Tapped(0xc0003f2280, 0xc0011551f0)
+02-21 23:37:15.651  2587     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/widget/button.go:175 +0x74
+02-21 23:37:15.651  2587     0 E Go      : created by fyne.io/fyne/v2/internal/driver/gomobile.(*mobileDriver).tapUpCanvas.func1
+02-21 23:37:15.651  2587     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/internal/driver/gomobile/driver.go:269 +0x4f
+02-21 23:37:15.651  2587  2613 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 2613 (.androidP2PDemo)
+02-21 23:37:15.659  2614  2614 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+02-21 23:37:15.659  2614  2614 F DEBUG   : Build fingerprint: 'google/android_x86_64/x86_64:7.1.2/N2G47O/3636322:/release-keys'
+02-21 23:37:15.659  2614  2614 F DEBUG   : Revision: '0'
+02-21 23:37:15.659  2614  2614 F DEBUG   : ABI: 'x86_64'
+02-21 23:37:15.659  2614  2614 F DEBUG   : pid: 2587, tid: 2613, name: .androidP2PDemo  >>> com.example.androidP2PDemo <<<
+02-21 23:37:15.659  2614  2614 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+02-21 23:37:15.659  2614  2614 F DEBUG   :     rax 0000000000000000  rbx 0000000000000000  rcx ffffffffffffffff  rdx 0000000000000006
+02-21 23:37:15.659  2614  2614 F DEBUG   :     rsi 0000000000000a35  rdi 0000000000000a1b
+02-21 23:37:15.659  2614  2614 F DEBUG   :     r8  00007fffd9519b7c  r9  0000000000000056  r10 0000000000000008  r11 0000000000000246
+02-21 23:37:15.659  2614  2614 F DEBUG   :     r12 0000000000000a1b  r13 00007fffd9f184a0  r14 0000000000000000  r15 00007fffd8e8b0e0
+02-21 23:37:15.659  2614  2614 F DEBUG   :     cs  0000000000000033  ss  000000000000002b
+02-21 23:37:15.659  2614  2614 F DEBUG   :     rip 00007fffd8e8c921  rbp 000000c001b69bd0  rsp 000000c001b69bb8  eflags 0000000000000246
+02-21 23:37:15.660  2614  2614 F DEBUG   : 
+02-21 23:37:15.660  2614  2614 F DEBUG   : backtrace:
+02-21 23:37:15.660  2614  2614 F DEBUG   :     #00 pc 0000000000626921  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.raise+33)
+02-21 23:37:15.660  2614  2614 F DEBUG   :     #01 pc 00000000005ef4ac  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.fatalpanic+172)
+02-21 23:37:15.660  2614  2614 F DEBUG   :     #02 pc 00000000005eede4  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.gopanic+1348)
+02-21 23:37:15.660  2614  2614 F DEBUG   :     #03 pc 0000000000604d12  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.sigpanic+1042)
+02-21 23:37:15.660  2614  2614 F DEBUG   :     #04 pc 0000000000cab851  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (main.NewP2PServer+1169)
+02-21 23:37:15.660  2614  2614 F DEBUG   :     #05 pc 0000000000cac7b4  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (main.main.func3+180)
+02-21 23:37:15.660  2614  2614 F DEBUG   :     #06 pc 00000000009a4813  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (fyne.io/fyne/v2/widget.(*Button).Tapped+115)
+02-21 23:37:15.660  2614  2614 F DEBUG   :     #07 pc 00000000006250e0  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.goexit)
+02-21 23:37:16.133  1448  1469 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 60)
+02-21 23:37:16.135  1448  2619 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 112)
+02-21 23:37:16.137  1245  1245 E lowmemorykiller: Error writing /proc/2587/oom_score_adj; errno=22
+02-21 23:37:16.146  1448  1523 E InputDispatcher: channel 'a55925b com.example.androidP2PDemo/org.golang.app.GoNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+02-21 23:37:16.293  1247  1247 E EGL_adreno: tid 1247: eglCreateSyncKHR(2070): error 0x3004 (EGL_BAD_ATTRIBUTE)
+02-21 23:37:16.404  1913  2150 E EGL_adreno: tid 2150: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:37:16.510  1448  2583 E EGL_adreno: tid 2583: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:42:31.626  2632     0 E Go      : panic: runtime error: invalid memory address or nil pointer dereference
+02-21 23:42:31.626  2632     0 E Go      : [signal SIGSEGV: segmentation violation code=0x1 addr=0x70 pc=0x7fffd9511852]
+02-21 23:42:31.626  2632     0 E Go      : 
+02-21 23:42:31.626  2632     0 E Go      : goroutine 39 [running]:
+02-21 23:42:31.626  2632     0 E Go      : main.NewP2PServer(0x7fffd9996180, 0xc0000a0000, 0xc0003b2120, 0xc0003b2240, 0x1, 0x0, 0x0, 0x0, 0x7fffd9147490, 0xc0003b0000, ...)
+02-21 23:42:31.626  2632     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/myhost.go:68 +0x492
+02-21 23:42:31.626  2632     0 E Go      : main.main.func3()
+02-21 23:42:31.626  2632     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/main.go:83 +0xb5
+02-21 23:42:31.626  2632     0 E Go      : fyne.io/fyne/v2/widget.(*Button).Tapped(0xc0003a8320, 0xc00117ce10)
+02-21 23:42:31.626  2632     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/widget/button.go:175 +0x74
+02-21 23:42:31.626  2632     0 E Go      : created by fyne.io/fyne/v2/internal/driver/gomobile.(*mobileDriver).tapUpCanvas.func1
+02-21 23:42:31.626  2632     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/internal/driver/gomobile/driver.go:269 +0x4f
+02-21 23:42:31.626  2632  2658 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 2658 (.androidP2PDemo)
+02-21 23:42:31.683  2659  2659 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+02-21 23:42:31.683  2659  2659 F DEBUG   : Build fingerprint: 'google/android_x86_64/x86_64:7.1.2/N2G47O/3636322:/release-keys'
+02-21 23:42:31.683  2659  2659 F DEBUG   : Revision: '0'
+02-21 23:42:31.683  2659  2659 F DEBUG   : ABI: 'x86_64'
+02-21 23:42:31.683  2659  2659 F DEBUG   : pid: 2632, tid: 2658, name: .androidP2PDemo  >>> com.example.androidP2PDemo <<<
+02-21 23:42:31.683  2659  2659 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+02-21 23:42:31.683  2659  2659 F DEBUG   :     rax 0000000000000000  rbx 0000000000000000  rcx ffffffffffffffff  rdx 0000000000000006
+02-21 23:42:31.683  2659  2659 F DEBUG   :     rsi 0000000000000a62  rdi 0000000000000a48
+02-21 23:42:31.683  2659  2659 F DEBUG   :     r8  00007fffd9519b7c  r9  0000000000000056  r10 0000000000000008  r11 0000000000000246
+02-21 23:42:31.683  2659  2659 F DEBUG   :     r12 0000000000000a48  r13 00007fffd9f184a0  r14 0000000000000000  r15 00007fffd8e8b0e0
+02-21 23:42:31.683  2659  2659 F DEBUG   :     cs  0000000000000033  ss  000000000000002b
+02-21 23:42:31.683  2659  2659 F DEBUG   :     rip 00007fffd8e8c921  rbp 000000c001b0bbd0  rsp 000000c001b0bbb8  eflags 0000000000000246
+02-21 23:42:31.684  2659  2659 F DEBUG   : 
+02-21 23:42:31.684  2659  2659 F DEBUG   : backtrace:
+02-21 23:42:31.684  2659  2659 F DEBUG   :     #00 pc 0000000000626921  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.raise+33)
+02-21 23:42:31.684  2659  2659 F DEBUG   :     #01 pc 00000000005ef4ac  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.fatalpanic+172)
+02-21 23:42:31.684  2659  2659 F DEBUG   :     #02 pc 00000000005eede4  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.gopanic+1348)
+02-21 23:42:31.684  2659  2659 F DEBUG   :     #03 pc 0000000000604d12  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.sigpanic+1042)
+02-21 23:42:31.684  2659  2659 F DEBUG   :     #04 pc 0000000000cab851  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (main.NewP2PServer+1169)
+02-21 23:42:31.684  2659  2659 F DEBUG   :     #05 pc 0000000000cac7b4  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (main.main.func3+180)
+02-21 23:42:31.684  2659  2659 F DEBUG   :     #06 pc 00000000009a4813  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (fyne.io/fyne/v2/widget.(*Button).Tapped+115)
+02-21 23:42:31.684  2659  2659 F DEBUG   :     #07 pc 00000000006250e0  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.goexit)
+02-21 23:42:32.099  1448  1523 E InputDispatcher: channel '2b2bcd2 com.example.androidP2PDemo/org.golang.app.GoNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+02-21 23:42:32.266  1913  2150 E EGL_adreno: tid 2150: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:42:32.372  1448  2583 E EGL_adreno: tid 2583: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:48:36.430  2671     0 E Go      : panic: runtime error: invalid memory address or nil pointer dereference
+02-21 23:48:36.430  2671     0 E Go      : [signal SIGSEGV: segmentation violation code=0x1 addr=0x70 pc=0x7fffd9511852]
+02-21 23:48:36.430  2671     0 E Go      : 
+02-21 23:48:36.430  2671     0 E Go      : goroutine 37 [running]:
+02-21 23:48:36.430  2671     0 E Go      : main.NewP2PServer(0x7fffd9996180, 0xc00003e008, 0xc00007cd20, 0xc00007cf30, 0x1, 0x0, 0x0, 0x0, 0x7fffd9147490, 0xc0003a8100, ...)
+02-21 23:48:36.430  2671     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/myhost.go:68 +0x492
+02-21 23:48:36.430  2671     0 E Go      : main.main.func3()
+02-21 23:48:36.430  2671     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/main.go:83 +0xb5
+02-21 23:48:36.430  2671     0 E Go      : fyne.io/fyne/v2/widget.(*Button).Tapped(0xc00018a320, 0xc000963350)
+02-21 23:48:36.430  2671     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/widget/button.go:175 +0x74
+02-21 23:48:36.430  2671     0 E Go      : created by fyne.io/fyne/v2/internal/driver/gomobile.(*mobileDriver).tapUpCanvas.func1
+02-21 23:48:36.430  2671     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/internal/driver/gomobile/driver.go:269 +0x4f
+02-21 23:48:36.430  2671  2697 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 2697 (Thread-4)
+02-21 23:48:36.487  2700  2700 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+02-21 23:48:36.488  2700  2700 F DEBUG   : Build fingerprint: 'google/android_x86_64/x86_64:7.1.2/N2G47O/3636322:/release-keys'
+02-21 23:48:36.488  2700  2700 F DEBUG   : Revision: '0'
+02-21 23:48:36.488  2700  2700 F DEBUG   : ABI: 'x86_64'
+02-21 23:48:36.488  2700  2700 F DEBUG   : pid: 2671, tid: 2697, name: Thread-4  >>> com.example.androidP2PDemo <<<
+02-21 23:48:36.488  2700  2700 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+02-21 23:48:36.488  2700  2700 F DEBUG   :     rax 0000000000000000  rbx 0000000000000000  rcx ffffffffffffffff  rdx 0000000000000006
+02-21 23:48:36.488  2700  2700 F DEBUG   :     rsi 0000000000000a89  rdi 0000000000000a6f
+02-21 23:48:36.488  2700  2700 F DEBUG   :     r8  00007fffd9519b7c  r9  0000000000000056  r10 0000000000000008  r11 0000000000000246
+02-21 23:48:36.488  2700  2700 F DEBUG   :     r12 0000000000000a6f  r13 00007fffd9f184a0  r14 0000000000000000  r15 00007fffd8e8b0e0
+02-21 23:48:36.488  2700  2700 F DEBUG   :     cs  0000000000000033  ss  000000000000002b
+02-21 23:48:36.488  2700  2700 F DEBUG   :     rip 00007fffd8e8c921  rbp 000000c001b51bd0  rsp 000000c001b51bb8  eflags 0000000000000246
+02-21 23:48:36.494  2700  2700 F DEBUG   : 
+02-21 23:48:36.494  2700  2700 F DEBUG   : backtrace:
+02-21 23:48:36.494  2700  2700 F DEBUG   :     #00 pc 0000000000626921  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.raise+33)
+02-21 23:48:36.494  2700  2700 F DEBUG   :     #01 pc 00000000005ef4ac  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.fatalpanic+172)
+02-21 23:48:36.494  2700  2700 F DEBUG   :     #02 pc 00000000005eede4  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.gopanic+1348)
+02-21 23:48:36.494  2700  2700 F DEBUG   :     #03 pc 0000000000604d12  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.sigpanic+1042)
+02-21 23:48:36.494  2700  2700 F DEBUG   :     #04 pc 0000000000cab851  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (main.NewP2PServer+1169)
+02-21 23:48:36.494  2700  2700 F DEBUG   :     #05 pc 0000000000cac7b4  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (main.main.func3+180)
+02-21 23:48:36.494  2700  2700 F DEBUG   :     #06 pc 00000000009a4813  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (fyne.io/fyne/v2/widget.(*Button).Tapped+115)
+02-21 23:48:36.494  2700  2700 F DEBUG   :     #07 pc 00000000006250e0  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.goexit)
+02-21 23:48:37.038  1913  2150 E EGL_adreno: tid 2150: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:48:37.140  1448  2583 E EGL_adreno: tid 2583: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:50:46.209  1702  1848 E EGL_adreno: tid 1848: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:50:48.313  1913  2150 E EGL_adreno: tid 2150: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:51:13.845  2729     0 E Go      : panic: runtime error: invalid memory address or nil pointer dereference
+02-21 23:51:13.845  2729     0 E Go      : [signal SIGSEGV: segmentation violation code=0x1 addr=0x70 pc=0x7fffd9511852]
+02-21 23:51:13.845  2729     0 E Go      : 
+02-21 23:51:13.845  2729     0 E Go      : goroutine 38 [running]:
+02-21 23:51:13.845  2729     0 E Go      : main.NewP2PServer(0x7fffd9996180, 0xc00003e008, 0xc00007cd20, 0xc00007cf30, 0x0, 0x0, 0x0, 0x0, 0xc0003ec0a0, 0xc0003ec0a0, ...)
+02-21 23:51:13.845  2729     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/myhost.go:68 +0x492
+02-21 23:51:13.845  2729     0 E Go      : main.main.func1()
+02-21 23:51:13.845  2729     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/main.go:53 +0xa5
+02-21 23:51:13.845  2729     0 E Go      : fyne.io/fyne/v2/widget.(*Button).Tapped(0xc0003ec0a0, 0xc001c00e20)
+02-21 23:51:13.845  2729     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/widget/button.go:175 +0x74
+02-21 23:51:13.845  2729     0 E Go      : created by fyne.io/fyne/v2/internal/driver/gomobile.(*mobileDriver).tapUpCanvas.func1
+02-21 23:51:13.845  2729     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/internal/driver/gomobile/driver.go:269 +0x4f
+02-21 23:51:13.845  2729  2748 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 2748 (.androidP2PDemo)
+02-21 23:51:13.849  2773  2773 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+02-21 23:51:13.850  2773  2773 F DEBUG   : Build fingerprint: 'google/android_x86_64/x86_64:7.1.2/N2G47O/3636322:/release-keys'
+02-21 23:51:13.850  2773  2773 F DEBUG   : Revision: '0'
+02-21 23:51:13.850  2773  2773 F DEBUG   : ABI: 'x86_64'
+02-21 23:51:13.850  2773  2773 F DEBUG   : pid: 2729, tid: 2748, name: .androidP2PDemo  >>> com.example.androidP2PDemo <<<
+02-21 23:51:13.850  2773  2773 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+02-21 23:51:13.850  2773  2773 F DEBUG   :     rax 0000000000000000  rbx 0000000000000000  rcx ffffffffffffffff  rdx 0000000000000006
+02-21 23:51:13.850  2773  2773 F DEBUG   :     rsi 0000000000000abc  rdi 0000000000000aa9
+02-21 23:51:13.850  2773  2773 F DEBUG   :     r8  00007fffd9519b7c  r9  0000000000000056  r10 0000000000000008  r11 0000000000000246
+02-21 23:51:13.850  2773  2773 F DEBUG   :     r12 0000000000000aa9  r13 00007fffd9f184a0  r14 0000000000000000  r15 00007fffd8e8b0e0
+02-21 23:51:13.850  2773  2773 F DEBUG   :     cs  0000000000000033  ss  000000000000002b
+02-21 23:51:13.850  2773  2773 F DEBUG   :     rip 00007fffd8e8c921  rbp 000000c001e87c18  rsp 000000c001e87c00  eflags 0000000000000246
+02-21 23:51:13.850  2773  2773 F DEBUG   : 
+02-21 23:51:13.850  2773  2773 F DEBUG   : backtrace:
+02-21 23:51:13.850  2773  2773 F DEBUG   :     #00 pc 0000000000626921  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.raise+33)
+02-21 23:51:13.850  2773  2773 F DEBUG   :     #01 pc 00000000005ef4ac  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.fatalpanic+172)
+02-21 23:51:13.850  2773  2773 F DEBUG   :     #02 pc 00000000005eede4  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.gopanic+1348)
+02-21 23:51:13.851  2773  2773 F DEBUG   :     #03 pc 0000000000604d12  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.sigpanic+1042)
+02-21 23:51:13.851  2773  2773 F DEBUG   :     #04 pc 0000000000cab851  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (main.NewP2PServer+1169)
+02-21 23:51:13.851  2773  2773 F DEBUG   :     #05 pc 0000000000cac4e4  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (main.main.func1+164)
+02-21 23:51:13.851  2773  2773 F DEBUG   :     #06 pc 00000000009a4813  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (fyne.io/fyne/v2/widget.(*Button).Tapped+115)
+02-21 23:51:13.851  2773  2773 F DEBUG   :     #07 pc 00000000006250e0  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.goexit)
+02-21 23:51:14.225  1448  1523 E InputDispatcher: channel '6de1084 com.example.androidP2PDemo/org.golang.app.GoNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+02-21 23:51:14.393  1448  2583 E EGL_adreno: tid 2583: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:51:14.467  1913  2150 E EGL_adreno: tid 2150: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:57:18.373  2782  2782 E memtrack: Couldn't load memtrack module (No such file or directory)
+02-21 23:57:18.373  2782  2782 E android.os.Debug: failed to load memtrack module: -2
+02-21 23:57:22.492  1765  1765 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+02-21 23:57:22.556  1765  1765 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+02-21 23:57:23.706  1448  1448 E NetdConnector: NDC Command {29 network permission user clear 10034} took too long (872ms)
+02-21 23:57:31.134  2792  2792 E memtrack: Couldn't load memtrack module (No such file or directory)
+02-21 23:57:31.134  2792  2792 E android.os.Debug: failed to load memtrack module: -2
+02-21 23:57:31.135  2821  2821 E memtrack: Couldn't load memtrack module (No such file or directory)
+02-21 23:57:31.135  2821  2821 E android.os.Debug: failed to load memtrack module: -2
+02-21 23:57:34.595  1448  1462 E ActivityManager: Failure starting process com.example.androidP2PDemo
+02-21 23:57:34.595  1448  1462 E ActivityManager: java.lang.SecurityException: Package com.example.androidP2PDemo is currently frozen!
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at com.android.server.pm.PackageManagerService.checkPackageStartable(PackageManagerService.java:3229)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:3717)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:3677)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at com.android.server.am.ActivityManagerService.startProcessLocked(ActivityManagerService.java:3558)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at com.android.server.am.ActivityStackSupervisor.startSpecificActivityLocked(ActivityStackSupervisor.java:1419)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at com.android.server.am.ActivityStack.resumeTopActivityInnerLocked(ActivityStack.java:2585)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at com.android.server.am.ActivityStack.resumeTopActivityUncheckedLocked(ActivityStack.java:2131)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at com.android.server.am.ActivityStackSupervisor.resumeFocusedStackTopActivityLocked(ActivityStackSupervisor.java:1833)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at com.android.server.am.ActivityStackSupervisor.resumeFocusedStackTopActivityLocked(ActivityStackSupervisor.java:1823)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at com.android.server.am.ActivityManagerService.handleAppDiedLocked(ActivityManagerService.java:5202)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at com.android.server.am.ActivityManagerService.removeProcessLocked(ActivityManagerService.java:6486)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at com.android.server.am.ActivityManagerService.killPackageProcessesLocked(ActivityManagerService.java:6140)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at com.android.server.am.ActivityManagerService.forceStopPackageLocked(ActivityManagerService.java:6272)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at com.android.server.am.ActivityManagerService$MainHandler.handleMessage(ActivityManagerService.java:1903)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at android.os.Looper.loop(Looper.java:154)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:61)
+02-21 23:57:34.595  1448  1462 E ActivityManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+02-21 23:57:34.704  1913  2150 E EGL_adreno: tid 2150: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:57:34.985  1765  1765 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+02-21 23:57:34.987  1765  1765 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+02-21 23:57:35.995  2886  2886 E memtrack: Couldn't load memtrack module (No such file or directory)
+02-21 23:57:35.995  2886  2886 E android.os.Debug: failed to load memtrack module: -2
+02-21 23:57:38.675  2893     0 E Go      : panic: runtime error: invalid memory address or nil pointer dereference
+02-21 23:57:38.675  2893     0 E Go      : [signal SIGSEGV: segmentation violation code=0x1 addr=0x70 pc=0x7fffd95118c3]
+02-21 23:57:38.675  2893     0 E Go      : 
+02-21 23:57:38.675  2893     0 E Go      : goroutine 51 [running]:
+02-21 23:57:38.675  2893     0 E Go      : main.NewP2PServer(0x7fffd9996180, 0xc0000a0000, 0xc00032c090, 0xc00032c1b0, 0x1, 0x0, 0x0, 0x0, 0x7fffd91474b0, 0xc0003b0000, ...)
+02-21 23:57:38.675  2893     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/myhost.go:68 +0x4e3
+02-21 23:57:38.675  2893     0 E Go      : main.main.func3()
+02-21 23:57:38.675  2893     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/main.go:82 +0xb5
+02-21 23:57:38.675  2893     0 E Go      : fyne.io/fyne/v2/widget.(*Button).Tapped(0xc0003aa320, 0xc00150be30)
+02-21 23:57:38.675  2893     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/widget/button.go:175 +0x74
+02-21 23:57:38.675  2893     0 E Go      : created by fyne.io/fyne/v2/internal/driver/gomobile.(*mobileDriver).tapUpCanvas.func1
+02-21 23:57:38.675  2893     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/internal/driver/gomobile/driver.go:269 +0x4f
+02-21 23:57:38.675  2893  2926 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 2926 (.androidP2PDemo)
+02-21 23:57:38.750  2928  2928 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+02-21 23:57:38.750  2928  2928 F DEBUG   : Build fingerprint: 'google/android_x86_64/x86_64:7.1.2/N2G47O/3636322:/release-keys'
+02-21 23:57:38.750  2928  2928 F DEBUG   : Revision: '0'
+02-21 23:57:38.750  2928  2928 F DEBUG   : ABI: 'x86_64'
+02-21 23:57:38.750  2928  2928 F DEBUG   : pid: 2893, tid: 2926, name: .androidP2PDemo  >>> com.example.androidP2PDemo <<<
+02-21 23:57:38.750  2928  2928 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+02-21 23:57:38.750  2928  2928 F DEBUG   :     rax 0000000000000000  rbx 0000000000000000  rcx ffffffffffffffff  rdx 0000000000000006
+02-21 23:57:38.750  2928  2928 F DEBUG   :     rsi 0000000000000b6e  rdi 0000000000000b4d
+02-21 23:57:38.750  2928  2928 F DEBUG   :     r8  00007fffd9519bdc  r9  0000000000000056  r10 0000000000000008  r11 0000000000000246
+02-21 23:57:38.750  2928  2928 F DEBUG   :     r12 0000000000000b4d  r13 00007fffd9f184a0  r14 0000000000000000  r15 00007fffd8e8b100
+02-21 23:57:38.750  2928  2928 F DEBUG   :     cs  0000000000000033  ss  000000000000002b
+02-21 23:57:38.750  2928  2928 F DEBUG   :     rip 00007fffd8e8c941  rbp 000000c001a79bc0  rsp 000000c001a79ba8  eflags 0000000000000246
+02-21 23:57:38.751  2928  2928 F DEBUG   : 
+02-21 23:57:38.751  2928  2928 F DEBUG   : backtrace:
+02-21 23:57:38.751  2928  2928 F DEBUG   :     #00 pc 0000000000626941  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.raise+33)
+02-21 23:57:38.751  2928  2928 F DEBUG   :     #01 pc 00000000005ef4cc  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.fatalpanic+172)
+02-21 23:57:38.751  2928  2928 F DEBUG   :     #02 pc 00000000005eee04  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.gopanic+1348)
+02-21 23:57:38.751  2928  2928 F DEBUG   :     #03 pc 0000000000604d32  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.sigpanic+1042)
+02-21 23:57:38.751  2928  2928 F DEBUG   :     #04 pc 0000000000cab8c2  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (main.NewP2PServer+1250)
+02-21 23:57:38.752  2928  2928 F DEBUG   :     #05 pc 0000000000cac814  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (main.main.func3+180)
+02-21 23:57:38.752  2928  2928 F DEBUG   :     #06 pc 00000000009a4833  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (fyne.io/fyne/v2/widget.(*Button).Tapped+115)
+02-21 23:57:38.752  2928  2928 F DEBUG   :     #07 pc 0000000000625100  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.goexit)
+02-21 23:57:39.728  1448  1523 E InputDispatcher: channel 'a9d9335 com.example.androidP2PDemo/org.golang.app.GoNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+02-21 23:57:39.932  1913  2150 E EGL_adreno: tid 2150: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:57:39.946  1448  2583 E EGL_adreno: tid 2583: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:58:20.919  1448  1785 E ActivityManager: applyOptionsLocked: Unknown animationType=0
+02-21 23:58:23.874  2132  2965 E EGL_adreno: tid 2965: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:58:24.815  2937     0 E Go      : panic: runtime error: invalid memory address or nil pointer dereference
+02-21 23:58:24.815  2937     0 E Go      : [signal SIGSEGV: segmentation violation code=0x1 addr=0x70 pc=0x7fffd95118c3]
+02-21 23:58:24.815  2937     0 E Go      : 
+02-21 23:58:24.815  2937     0 E Go      : goroutine 54 [running]:
+02-21 23:58:24.815  2937     0 E Go      : main.NewP2PServer(0x7fffd9996180, 0xc0000a0000, 0xc00009ad20, 0xc00009af30, 0x0, 0x0, 0x0, 0x0, 0xc0003a60a0, 0xc0003a60a0, ...)
+02-21 23:58:24.815  2937     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/myhost.go:68 +0x4e3
+02-21 23:58:24.815  2937     0 E Go      : main.main.func1()
+02-21 23:58:24.815  2937     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/main.go:52 +0xa5
+02-21 23:58:24.815  2937     0 E Go      : fyne.io/fyne/v2/widget.(*Button).Tapped(0xc0003a60a0, 0xc001b81550)
+02-21 23:58:24.815  2937     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/widget/button.go:175 +0x74
+02-21 23:58:24.815  2937     0 E Go      : created by fyne.io/fyne/v2/internal/driver/gomobile.(*mobileDriver).tapUpCanvas.func1
+02-21 23:58:24.815  2937     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/internal/driver/gomobile/driver.go:269 +0x4f
+02-21 23:58:24.815  2937  2957 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 2957 (Thread-4)
+02-21 23:58:24.873  2966  2966 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+02-21 23:58:24.873  2966  2966 F DEBUG   : Build fingerprint: 'google/android_x86_64/x86_64:7.1.2/N2G47O/3636322:/release-keys'
+02-21 23:58:24.873  2966  2966 F DEBUG   : Revision: '0'
+02-21 23:58:24.873  2966  2966 F DEBUG   : ABI: 'x86_64'
+02-21 23:58:24.873  2966  2966 F DEBUG   : pid: 2937, tid: 2957, name: Thread-4  >>> com.example.androidP2PDemo <<<
+02-21 23:58:24.873  2966  2966 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+02-21 23:58:24.873  2966  2966 F DEBUG   :     rax 0000000000000000  rbx 0000000000000000  rcx ffffffffffffffff  rdx 0000000000000006
+02-21 23:58:24.873  2966  2966 F DEBUG   :     rsi 0000000000000b8d  rdi 0000000000000b79
+02-21 23:58:24.873  2966  2966 F DEBUG   :     r8  00007fffd9519bdc  r9  0000000000000056  r10 0000000000000008  r11 0000000000000246
+02-21 23:58:24.873  2966  2966 F DEBUG   :     r12 0000000000000b79  r13 00007fffd9f184a0  r14 0000000000000000  r15 00007fffd8e8b100
+02-21 23:58:24.873  2966  2966 F DEBUG   :     cs  0000000000000033  ss  000000000000002b
+02-21 23:58:24.873  2966  2966 F DEBUG   :     rip 00007fffd8e8c941  rbp 000000c0020f9c08  rsp 000000c0020f9bf0  eflags 0000000000000246
+02-21 23:58:24.875  2966  2966 F DEBUG   : 
+02-21 23:58:24.875  2966  2966 F DEBUG   : backtrace:
+02-21 23:58:24.875  2966  2966 F DEBUG   :     #00 pc 0000000000626941  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.raise+33)
+02-21 23:58:24.875  2966  2966 F DEBUG   :     #01 pc 00000000005ef4cc  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.fatalpanic+172)
+02-21 23:58:24.875  2966  2966 F DEBUG   :     #02 pc 00000000005eee04  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.gopanic+1348)
+02-21 23:58:24.875  2966  2966 F DEBUG   :     #03 pc 0000000000604d32  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.sigpanic+1042)
+02-21 23:58:24.875  2966  2966 F DEBUG   :     #04 pc 0000000000cab8c2  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (main.NewP2PServer+1250)
+02-21 23:58:24.875  2966  2966 F DEBUG   :     #05 pc 0000000000cac544  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (main.main.func1+164)
+02-21 23:58:24.875  2966  2966 F DEBUG   :     #06 pc 00000000009a4833  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (fyne.io/fyne/v2/widget.(*Button).Tapped+115)
+02-21 23:58:24.875  2966  2966 F DEBUG   :     #07 pc 0000000000625100  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.goexit)
+02-21 23:58:25.305  1448  1523 E InputDispatcher: channel 'e3f5e00 com.example.androidP2PDemo/org.golang.app.GoNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+02-21 23:58:25.495  1448  2583 E EGL_adreno: tid 2583: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-21 23:58:25.560  1913  2150 E EGL_adreno: tid 2150: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-22 00:02:16.570  1448  1465 E BatteryStatsService: no controller energy info supplied
+02-22 00:02:16.570  1448  1465 E BatteryStatsService: no controller energy info supplied
+02-22 00:02:16.604  1765  1765 E PhoneInterfaceManager: [PhoneIntfMgr] queryModemActivityInfo: Empty response
+02-22 00:02:16.607  1448  1465 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state (No such file or directory)
+02-22 00:02:16.607  1448  1465 E BatteryStatsService: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}
+02-22 00:05:50.469  2976  2976 E memtrack: Couldn't load memtrack module (No such file or directory)
+02-22 00:05:50.469  2976  2976 E android.os.Debug: failed to load memtrack module: -2
+02-22 00:05:53.385  1765  1765 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+02-22 00:05:53.385  1765  1765 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+02-22 00:05:54.801  3016  3016 E memtrack: Couldn't load memtrack module (No such file or directory)
+02-22 00:05:54.801  3016  3016 E android.os.Debug: failed to load memtrack module: -2
+02-22 00:05:58.208  3036     0 E Go      : panic: runtime error: invalid memory address or nil pointer dereference
+02-22 00:05:58.208  3036     0 E Go      : [signal SIGSEGV: segmentation violation code=0x1 addr=0x70 pc=0x7fffd951178b]
+02-22 00:05:58.208  3036     0 E Go      : 
+02-22 00:05:58.208  3036     0 E Go      : goroutine 32 [running]:
+02-22 00:05:58.208  3036     0 E Go      : main.NewP2PServer(0x7fffd9996260, 0xc0000a0000, 0xc00009ad20, 0xc00009af30, 0x1, 0x0, 0x0, 0x0, 0x7fffd9147410, 0xc0003b0000, ...)
+02-22 00:05:58.208  3036     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/myhost.go:68 +0x44b
+02-22 00:05:58.208  3036     0 E Go      : main.main.func3()
+02-22 00:05:58.208  3036     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/main.go:82 +0xb5
+02-22 00:05:58.208  3036     0 E Go      : fyne.io/fyne/v2/widget.(*Button).Tapped(0xc0003a8320, 0xc0013e9cb0)
+02-22 00:05:58.208  3036     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/widget/button.go:175 +0x74
+02-22 00:05:58.208  3036     0 E Go      : created by fyne.io/fyne/v2/internal/driver/gomobile.(*mobileDriver).tapUpCanvas.func1
+02-22 00:05:58.208  3036     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/internal/driver/gomobile/driver.go:269 +0x4f
+02-22 00:05:58.209  3036  3062 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3062 (.androidP2PDemo)
+02-22 00:05:58.216  3064  3064 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+02-22 00:05:58.216  3064  3064 F DEBUG   : Build fingerprint: 'google/android_x86_64/x86_64:7.1.2/N2G47O/3636322:/release-keys'
+02-22 00:05:58.216  3064  3064 F DEBUG   : Revision: '0'
+02-22 00:05:58.216  3064  3064 F DEBUG   : ABI: 'x86_64'
+02-22 00:05:58.216  3064  3064 F DEBUG   : pid: 3036, tid: 3062, name: .androidP2PDemo  >>> com.example.androidP2PDemo <<<
+02-22 00:05:58.216  3064  3064 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+02-22 00:05:58.216  3064  3064 F DEBUG   :     rax 0000000000000000  rbx 0000000000000000  rcx ffffffffffffffff  rdx 0000000000000006
+02-22 00:05:58.216  3064  3064 F DEBUG   :     rsi 0000000000000bf6  rdi 0000000000000bdc
+02-22 00:05:58.216  3064  3064 F DEBUG   :     r8  00007fffd951971c  r9  0000000000000056  r10 0000000000000008  r11 0000000000000246
+02-22 00:05:58.216  3064  3064 F DEBUG   :     r12 0000000000000bdc  r13 00007fffd9f184a0  r14 0000000000000000  r15 00007fffd8e8b060
+02-22 00:05:58.216  3064  3064 F DEBUG   :     cs  0000000000000033  ss  000000000000002b
+02-22 00:05:58.216  3064  3064 F DEBUG   :     rip 00007fffd8e8c8a1  rbp 000000c001a7dbd0  rsp 000000c001a7dbb8  eflags 0000000000000246
+02-22 00:05:58.216  3064  3064 F DEBUG   : 
+02-22 00:05:58.216  3064  3064 F DEBUG   : backtrace:
+02-22 00:05:58.216  3064  3064 F DEBUG   :     #00 pc 00000000006268a1  /data/app/com.example.androidP2PDemo-2/lib/x86_64/libandroidP2PDemo.so (runtime.raise+33)
+02-22 00:05:58.216  3064  3064 F DEBUG   :     #01 pc 00000000005ef42c  /data/app/com.example.androidP2PDemo-2/lib/x86_64/libandroidP2PDemo.so (runtime.fatalpanic+172)
+02-22 00:05:58.216  3064  3064 F DEBUG   :     #02 pc 00000000005eed64  /data/app/com.example.androidP2PDemo-2/lib/x86_64/libandroidP2PDemo.so (runtime.gopanic+1348)
+02-22 00:05:58.216  3064  3064 F DEBUG   :     #03 pc 0000000000604c92  /data/app/com.example.androidP2PDemo-2/lib/x86_64/libandroidP2PDemo.so (runtime.sigpanic+1042)
+02-22 00:05:58.216  3064  3064 F DEBUG   :     #04 pc 0000000000cab78a  /data/app/com.example.androidP2PDemo-2/lib/x86_64/libandroidP2PDemo.so (main.NewP2PServer+1098)
+02-22 00:05:58.216  3064  3064 F DEBUG   :     #05 pc 0000000000cac754  /data/app/com.example.androidP2PDemo-2/lib/x86_64/libandroidP2PDemo.so (main.main.func3+180)
+02-22 00:05:58.217  3064  3064 F DEBUG   :     #06 pc 00000000009a4793  /data/app/com.example.androidP2PDemo-2/lib/x86_64/libandroidP2PDemo.so (fyne.io/fyne/v2/widget.(*Button).Tapped+115)
+02-22 00:05:58.217  3064  3064 F DEBUG   :     #07 pc 0000000000625060  /data/app/com.example.androidP2PDemo-2/lib/x86_64/libandroidP2PDemo.so (runtime.goexit)
+02-22 00:05:58.620  1448  3070 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 112)
+02-22 00:05:58.621  1448  1469 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!  (parcel size = 60)
+02-22 00:05:58.635  1448  1523 E InputDispatcher: channel '85410a1 com.example.androidP2PDemo/org.golang.app.GoNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+02-22 00:05:58.745  1245  1245 E lowmemorykiller: Error opening /proc/3036/oom_score_adj; errno=2
+02-22 00:05:58.936  1913  2150 E EGL_adreno: tid 2150: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-22 00:05:58.955  1448  2583 E EGL_adreno: tid 2583: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-22 00:14:02.509  3073  3073 E memtrack: Couldn't load memtrack module (No such file or directory)
+02-22 00:14:02.509  3073  3073 E android.os.Debug: failed to load memtrack module: -2
+02-22 00:14:03.759  1765  1765 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+02-22 00:14:03.759  1765  1765 E PhoneInterfaceManager: [PhoneIntfMgr] getCarrierPackageNamesForIntent: No UICC
+02-22 00:14:04.856  3110  3110 E memtrack: Couldn't load memtrack module (No such file or directory)
+02-22 00:14:04.856  3110  3110 E android.os.Debug: failed to load memtrack module: -2
+02-22 00:14:10.482  3131     0 E Go      : panic: runtime error: invalid memory address or nil pointer dereference
+02-22 00:14:10.482  3131     0 E Go      : [signal SIGSEGV: segmentation violation code=0x1 addr=0x70 pc=0x7fffd951178b]
+02-22 00:14:10.482  3131     0 E Go      : 
+02-22 00:14:10.482  3131     0 E Go      : goroutine 52 [running]:
+02-22 00:14:10.482  3131     0 E Go      : main.NewP2PServer(0x7fffd9996260, 0xc0000a0000, 0xc000312150, 0xc000312270, 0x1, 0x0, 0x0, 0x0, 0x7fffd9147410, 0xc00007a100, ...)
+02-22 00:14:10.482  3131     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/myhost.go:67 +0x44b
+02-22 00:14:10.482  3131     0 E Go      : main.main.func3()
+02-22 00:14:10.482  3131     0 E Go      : 	E:/GOPATH/src/p2pDemo/androidP2PDemo/main.go:82 +0xb5
+02-22 00:14:10.482  3131     0 E Go      : fyne.io/fyne/v2/widget.(*Button).Tapped(0xc0000b8280, 0xc000b9b0c0)
+02-22 00:14:10.482  3131     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/widget/button.go:175 +0x74
+02-22 00:14:10.482  3131     0 E Go      : created by fyne.io/fyne/v2/internal/driver/gomobile.(*mobileDriver).tapUpCanvas.func1
+02-22 00:14:10.482  3131     0 E Go      : 	E:/GOPATH/pkg/mod/fyne.io/fyne/v2@v2.0.0/internal/driver/gomobile/driver.go:269 +0x4f
+02-22 00:14:10.482  3131  3156 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3156 (.androidP2PDemo)
+02-22 00:14:10.557  3159  3159 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+02-22 00:14:10.557  3159  3159 F DEBUG   : Build fingerprint: 'google/android_x86_64/x86_64:7.1.2/N2G47O/3636322:/release-keys'
+02-22 00:14:10.557  3159  3159 F DEBUG   : Revision: '0'
+02-22 00:14:10.557  3159  3159 F DEBUG   : ABI: 'x86_64'
+02-22 00:14:10.557  3159  3159 F DEBUG   : pid: 3131, tid: 3156, name: .androidP2PDemo  >>> com.example.androidP2PDemo <<<
+02-22 00:14:10.557  3159  3159 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+02-22 00:14:10.557  3159  3159 F DEBUG   :     rax 0000000000000000  rbx 0000000000000000  rcx ffffffffffffffff  rdx 0000000000000006
+02-22 00:14:10.557  3159  3159 F DEBUG   :     rsi 0000000000000c54  rdi 0000000000000c3b
+02-22 00:14:10.557  3159  3159 F DEBUG   :     r8  00007fffd95196fc  r9  0000000000000056  r10 0000000000000008  r11 0000000000000246
+02-22 00:14:10.557  3159  3159 F DEBUG   :     r12 0000000000000c3b  r13 00007fffd9f184a0  r14 0000000000000000  r15 00007fffd8e8b060
+02-22 00:14:10.557  3159  3159 F DEBUG   :     cs  0000000000000033  ss  000000000000002b
+02-22 00:14:10.557  3159  3159 F DEBUG   :     rip 00007fffd8e8c8a1  rbp 000000c001af1bd0  rsp 000000c001af1bb8  eflags 0000000000000246
+02-22 00:14:10.559  3159  3159 F DEBUG   : 
+02-22 00:14:10.559  3159  3159 F DEBUG   : backtrace:
+02-22 00:14:10.559  3159  3159 F DEBUG   :     #00 pc 00000000006268a1  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.raise+33)
+02-22 00:14:10.559  3159  3159 F DEBUG   :     #01 pc 00000000005ef42c  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.fatalpanic+172)
+02-22 00:14:10.559  3159  3159 F DEBUG   :     #02 pc 00000000005eed64  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.gopanic+1348)
+02-22 00:14:10.559  3159  3159 F DEBUG   :     #03 pc 0000000000604c92  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.sigpanic+1042)
+02-22 00:14:10.559  3159  3159 F DEBUG   :     #04 pc 0000000000cab78a  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (main.NewP2PServer+1098)
+02-22 00:14:10.559  3159  3159 F DEBUG   :     #05 pc 0000000000cac734  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (main.main.func3+180)
+02-22 00:14:10.559  3159  3159 F DEBUG   :     #06 pc 00000000009a4793  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (fyne.io/fyne/v2/widget.(*Button).Tapped+115)
+02-22 00:14:10.559  3159  3159 F DEBUG   :     #07 pc 0000000000625060  /data/app/com.example.androidP2PDemo-1/lib/x86_64/libandroidP2PDemo.so (runtime.goexit)
+02-22 00:14:10.915  1448  1523 E InputDispatcher: channel 'c1209d1 com.example.androidP2PDemo/org.golang.app.GoNativeActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+02-22 00:14:11.109  1913  2150 E EGL_adreno: tid 2150: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-22 00:14:11.123  1448  2583 E EGL_adreno: tid 2583: eglSurfaceAttrib(1328): error 0x3009 (EGL_BAD_MATCH)
+02-22 00:32:16.459  1448  1465 E BatteryStatsService: no controller energy info supplied
+02-22 00:32:16.459  1448  1465 E BatteryStatsService: no controller energy info supplied
+02-22 00:32:16.463  1765  1765 E PhoneInterfaceManager: [PhoneIntfMgr] queryModemActivityInfo: Empty response
+02-22 00:32:16.488  1448  1465 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state (No such file or directory)
+02-22 00:32:16.488  1448  1465 E BatteryStatsService: modem info is invalid: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mIdleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0}

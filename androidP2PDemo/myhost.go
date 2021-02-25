@@ -113,9 +113,11 @@ func NewP2PServer(ctx context.Context, ch map[string]chan string, bindings map[s
 		fmt.Printf("成功发送Advertise：%s\n", rendezvous)
 		ch["out"] <- fmt.Sprintf("成功发送Advertise：%s\n", rendezvous)
 		ch["out"] <- "成功创建server"
+		s.host.Network().Peers()
 		go func() {
 			for {
 				time.Sleep(time.Second * 15)
+
 				peerInfos, _ := discovery.FindPeers(ctx, s.rtDiscovery, rendezvous)
 				if len(peerInfos) == 0 {
 					ch["out"] <- fmt.Sprintf("未找到peer\n")
